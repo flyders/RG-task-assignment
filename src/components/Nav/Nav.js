@@ -27,7 +27,10 @@ const CommonNav = styled.div`
 const Nav = () => {
   return (
     <CommonNav>
-      <img src={process.env.PUBLIC_URL + '/company_logo.png'} alt='' />
+      <img
+        src={process.env.PUBLIC_URL + '/company_logo.png'}
+        alt='reward gateway'
+      />
     </CommonNav>
   );
 };

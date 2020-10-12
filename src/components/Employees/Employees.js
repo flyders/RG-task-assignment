@@ -1,33 +1,18 @@
 import React, { useState } from 'react';
 import Loader from '../Loader/Loader';
 import styled from 'styled-components';
-import device from '../../utils/device';
 import { ColorPicker } from '../ColorPicker';
 import { Card } from '../Card';
 import { isNull, isUndefined } from 'lodash';
 import debouncedInput from '../DebouncedInput/DebouncedInput';
 import EmployeeServices from '../../services/EmployeeServices';
 
-const ЕmployeeslListLayout = styled.div`
-  display: block;
-
-  @media ${device.mobileL} {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 20px;
-    align-items: flex-start;
-    justify-items: flex-start;
-  }
-
-  @media ${device.laptop} {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 20px;
-  }
-
-  @media ${device.laptopL} {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-  }
+const EmployeeslListLayout = styled.div`
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 20px;
+  align-items: flex-start;
+  justify-items: flex-start;
 `;
 const EmployeeImage = styled.img`
   width: 100%;
@@ -44,15 +29,12 @@ const EmployeeTitle = styled.p`
 const EmployeeBio = styled.p`
   font-size: 14px;
 `;
-
 const EmployeeTextBody = styled.div`
   padding: 10px;
 `;
 
 const Employees = ({ data, loading }) => {
-  const [defaultBackground] = useState('#FFFFFF');
   const [employees, setEmployees] = useState(data);
-
   const DebouncedTextField = debouncedInput(ColorPicker, { timeout: 300 });
 
   const setEmployeeBackground = (employeeModel, backgroundColor) => {
@@ -78,10 +60,9 @@ const Employees = ({ data, loading }) => {
     setEmployeeBackground(employeeModel, e.target.value);
   };
 
-  let employeeList = [];
-
+  const employeeList = [];
   const buildEmployeeList = (list) => {
-    list.map((employee, index) => {
+    list.map((employee) => {
       if (
         isNull(employee.avatar) ||
         isUndefined(employee.avatar) ||
@@ -96,7 +77,9 @@ const Employees = ({ data, loading }) => {
       if (employee.bio === '0' || employee.bio === 0) employee.bio = 'N/A';
 
       employeeList.push(
-        <Card key={employee.uuid} backgroundColor={employee.background}>
+        <Card
+          key={employee.uuid}
+          backgroundColor={employee.background || '#ffffff'}>
           <EmployeeImage src={employee.avatar} />
           <EmployeeTextBody>
             <EmployeeName>{employee.name || 'No Name Specified'}</EmployeeName>
@@ -121,7 +104,7 @@ const Employees = ({ data, loading }) => {
       {loading ? (
         <Loader />
       ) : (
-        <ЕmployeeslListLayout>{employeeList}</ЕmployeeslListLayout>
+        <EmployeeslListLayout>{employeeList}</EmployeeslListLayout>
       )}
     </>
   );

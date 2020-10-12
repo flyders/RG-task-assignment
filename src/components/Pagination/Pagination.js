@@ -13,7 +13,6 @@ const Pag = styled.ul`
   background-color: #fff;
   overflow: hidden;
 `;
-
 const PagListItem = styled.li`
   font-size: 16px;
   line-height: 50px;

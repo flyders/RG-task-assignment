@@ -1,78 +1,6 @@
 {
   "employees": [
     {
-      "uuid": "00fe9c2b-b7c5-31f0-9fa7-bc7a9a80d0fb",
-      "company": "Dicki, Schmitt and Douglas",
-      "bio": "N/A",
-      "name": "Hannah Balistreri",
-      "title": "Cooling and Freezing Equipment Operator",
-      "avatar": "/default_user_img.jpg",
-      "background": "#ffffff",
-      "employee": {
-        "uuid": "00fe9c2b-b7c5-31f0-9fa7-bc7a9a80d0fb",
-        "company": "Dicki, Schmitt and Douglas",
-        "bio": "N/A",
-        "name": "Hannah Balistreri",
-        "title": "Cooling and Freezing Equipment Operator",
-        "avatar": "/default_user_img.jpg",
-        "background": "#e8caca",
-        "employee": {
-          "uuid": "00fe9c2b-b7c5-31f0-9fa7-bc7a9a80d0fb",
-          "company": "Dicki, Schmitt and Douglas",
-          "bio": "N/A",
-          "name": "Hannah Balistreri",
-          "title": "Cooling and Freezing Equipment Operator",
-          "avatar": "/default_user_img.jpg",
-          "background": "#e8e8e8",
-          "employee": {
-            "uuid": "00fe9c2b-b7c5-31f0-9fa7-bc7a9a80d0fb",
-            "company": "Dicki, Schmitt and Douglas",
-            "bio": "N/A",
-            "name": "Hannah Balistreri",
-            "title": "Cooling and Freezing Equipment Operator",
-            "avatar": "/default_user_img.jpg",
-            "background": "#dcdfe4",
-            "employee": {
-              "uuid": "00fe9c2b-b7c5-31f0-9fa7-bc7a9a80d0fb",
-              "company": "Dicki, Schmitt and Douglas",
-              "bio": "N/A",
-              "name": "Hannah Balistreri",
-              "title": "Cooling and Freezing Equipment Operator",
-              "avatar": "/default_user_img.jpg",
-              "background": "#5c5e60",
-              "employee": {
-                "uuid": "00fe9c2b-b7c5-31f0-9fa7-bc7a9a80d0fb",
-                "company": "Dicki, Schmitt and Douglas",
-                "bio": "N/A",
-                "name": "Hannah Balistreri",
-                "title": "Cooling and Freezing Equipment Operator",
-                "avatar": "/default_user_img.jpg",
-                "background": "#4d525c",
-                "employee": {
-                  "uuid": "00fe9c2b-b7c5-31f0-9fa7-bc7a9a80d0fb",
-                  "company": "Dicki, Schmitt and Douglas",
-                  "bio": "N/A",
-                  "name": "Hannah Balistreri",
-                  "title": "Cooling and Freezing Equipment Operator",
-                  "avatar": "/default_user_img.jpg",
-                  "background": "#316ce3",
-                  "employee": {
-                    "uuid": "00fe9c2b-b7c5-31f0-9fa7-bc7a9a80d0fb",
-                    "company": "Dicki, Schmitt and Douglas",
-                    "bio": "N/A",
-                    "name": "Hannah Balistreri",
-                    "title": "Cooling and Freezing Equipment Operator",
-                    "avatar": "/default_user_img.jpg",
-                    "background": "#4f546d"
-                  }
-                }
-              }
-            }
-          }
-        }
-      }
-    },
-    {
       "uuid": "26b842aa-0d5c-3c06-b543-3562fa56c530",
       "company": "Rippin Inc",
       "bio": "Sunt qui cum placeat 49t consequatur sed veniam mollitia. Corrupti ipsa voluptas assumenda perspiciatis necessitatibus est autem. Optio corrupti perspiciatis accusamus sed.",
@@ -97,61 +25,7 @@
       "name": "Dena Rath",
       "title": "Internist",
       "avatar": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAADsklEQVRYR63XdwincxwH8NeZGWXGnRWZiSJ/kGRlJMqI0+FynSI7skpmnGzJzChd54pkZkUJ2WVE6cqR7BHK3r2v76Pnfvc83+e5zqd+f/z6fcb795nv7xTjZXUciL2xAzbHGvgHP+ADvIln8QR+GuN6ygilzXAOZuIPPIc38CG+L/ZrYgvshD2xHO7BVfi4FqMGYGWcj3PxMm7A4/h9AHTsDsKZBdAcXFHAL2HaB2ATPIB1cHJJ6YhkLaYS3wFyEz7D4fh00kkXgG3wDF7HrFLfLrv0wMblh/fwVQ/CtTAX22NfLGjrTQLIP38JT+IE/DXhNPqn4qxW8Kj8jWtxIX7tALIC7ir9sWs7E20Aqd2L+KSkazJ4/N6Mkyq1+BkX4+oeEA9hbezR9EQbwKU4Bjv2pD0dnu4fIweULE7qJvhbuB2X58cGQEbtfRxSabh08nljouNeHN2jmxjzsWWy3QC4FduW1PTFuL+UZgyG17Bzj2Jips/S5KflSzbcFyX9qVGfPFgyNAbAq9ilojgdd2BqAByJ27D+wJK5E8eNiY78kUMruquUsZ0ZAGmI9QYM4uvsslrHYLikTENNN1t1YQAkXY80XVmx2A9PjYmO/fH0gG6mbq8A+CbNUDq3ZrM0JUhJTxwAcGxuRADkwh1cDk3NJqU6fmQGsv+zMWuSmPMDINcts5ma1CSLKCXIgarJ19gH7wzoJea8AIjB6SNKEH/Ry1muSa7nLSMylUM3JwBeKf8+TTEkOVYLsXyP4p/YtOvsduhfht0DIFtwg9IHQwDy+3U4o0fx+kJExvjJxV0QACEKOZXZBb+NsEwPZHK6JMusjxe09VctpZ8RAKuVVZyahAUNSS7atz1KU/HlkAPMKH0yrTlGGZuc4d0Ky635SI1DSLtk60nG06GUmDlWL6RcDYA0V6jSEXi0Ej3MJmz3qB6d+8pRy27pk5Q8PsKiP28TktCpHJtw/u8mrBM4cxudcLuavIvcglzPSVa1Lt7GjbgyTtoAVsTzpb4JlpHKdISCzca0EbVtq4QB311qnXMf/48hlzCPm/hfDEC+b1jIQuoTo1MQrrgsEpKa5ZXeCUkJKY3vRdJFy7cqr590+7IGb+JkvDO6IaN5wv0nfQ+TZOJhbPc/gPilENHD2v+8loHmt9QsJPSCMporLWUdfix1v6i8GRbVfFLGPE43KkDSiAEVm9otSIzUPZzvmvIs68U+BkBjnO4N08knhDNNlS0ayYPko/KwCRPKp+uFtASQfwFMNb0ytvWaBAAAAABJRU5ErkJggg==",
-      "background": "#FFFFFF"
-    },
-    {
-      "uuid": "d2ecf2a9-1adc-3d2f-b194-e51bff3856c6",
-      "company": "Schultz, Hintz and Flatley",
-      "bio": "N/A",
-      "name": "Nico Sawayn",
-      "title": "Travel Clerk",
-      "avatar": "/default_user_img.jpg",
-      "background": "#ffffff",
-      "employee": {
-        "uuid": "d2ecf2a9-1adc-3d2f-b194-e51bff3856c6",
-        "company": "Schultz, Hintz and Flatley",
-        "bio": "N/A",
-        "name": "Nico Sawayn",
-        "title": "Travel Clerk",
-        "avatar": "/default_user_img.jpg",
-        "background": "#e71818",
-        "employee": {
-          "uuid": "d2ecf2a9-1adc-3d2f-b194-e51bff3856c6",
-          "company": "Schultz, Hintz and Flatley",
-          "bio": "N/A",
-          "name": "Nico Sawayn",
-          "title": "Travel Clerk",
-          "avatar": "/default_user_img.jpg",
-          "background": "#740b0b",
-          "employee": {
-            "uuid": "d2ecf2a9-1adc-3d2f-b194-e51bff3856c6",
-            "company": "Schultz, Hintz and Flatley",
-            "bio": "N/A",
-            "name": "Nico Sawayn",
-            "title": "Travel Clerk",
-            "avatar": "/default_user_img.jpg",
-            "background": "#390909",
-            "employee": {
-              "uuid": "d2ecf2a9-1adc-3d2f-b194-e51bff3856c6",
-              "company": "Schultz, Hintz and Flatley",
-              "bio": "N/A",
-              "name": "Nico Sawayn",
-              "title": "Travel Clerk",
-              "avatar": "/default_user_img.jpg",
-              "background": "#2d2a2a",
-              "employee": {
-                "uuid": "d2ecf2a9-1adc-3d2f-b194-e51bff3856c6",
-                "company": "Schultz, Hintz and Flatley",
-                "bio": "N/A",
-                "name": "Nico Sawayn",
-                "title": "Travel Clerk",
-                "avatar": "/default_user_img.jpg",
-                "background": "#e01f1f"
-              }
-            }
-          }
-        }
-      }
+      "background": "#9b2c2c"
     },
     {
       "uuid": "c8415395-f4e3-358a-908f-d1e7ffac4bf3",
@@ -286,7 +160,7 @@
       "name": "Genoveva Schuster Sr.",
       "title": "Technical Specialist",
       "avatar": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAADsklEQVRYR63XdwincxwH8NeZGWXGnRWZiSJ/kGRlJMqI0+FynSI7skpmnGzJzChd54pkZkUJ2WVE6cqR7BHK3r2v76Pnfvc83+e5zqd+f/z6fcb795nv7xTjZXUciL2xAzbHGvgHP+ADvIln8QR+GuN6ygilzXAOZuIPPIc38CG+L/ZrYgvshD2xHO7BVfi4FqMGYGWcj3PxMm7A4/h9AHTsDsKZBdAcXFHAL2HaB2ATPIB1cHJJ6YhkLaYS3wFyEz7D4fh00kkXgG3wDF7HrFLfLrv0wMblh/fwVQ/CtTAX22NfLGjrTQLIP38JT+IE/DXhNPqn4qxW8Kj8jWtxIX7tALIC7ir9sWs7E20Aqd2L+KSkazJ4/N6Mkyq1+BkX4+oeEA9hbezR9EQbwKU4Bjv2pD0dnu4fIweULE7qJvhbuB2X58cGQEbtfRxSabh08nljouNeHN2jmxjzsWWy3QC4FduW1PTFuL+UZgyG17Bzj2Jips/S5KflSzbcFyX9qVGfPFgyNAbAq9ilojgdd2BqAByJ27D+wJK5E8eNiY78kUMruquUsZ0ZAGmI9QYM4uvsslrHYLikTENNN1t1YQAkXY80XVmx2A9PjYmO/fH0gG6mbq8A+CbNUDq3ZrM0JUhJTxwAcGxuRADkwh1cDk3NJqU6fmQGsv+zMWuSmPMDINcts5ma1CSLKCXIgarJ19gH7wzoJea8AIjB6SNKEH/Ry1muSa7nLSMylUM3JwBeKf8+TTEkOVYLsXyP4p/YtOvsduhfht0DIFtwg9IHQwDy+3U4o0fx+kJExvjJxV0QACEKOZXZBb+NsEwPZHK6JMusjxe09VctpZ8RAKuVVZyahAUNSS7atz1KU/HlkAPMKH0yrTlGGZuc4d0Ky635SI1DSLtk60nG06GUmDlWL6RcDYA0V6jSEXi0Ej3MJmz3qB6d+8pRy27pk5Q8PsKiP28TktCpHJtw/u8mrBM4cxudcLuavIvcglzPSVa1Lt7GjbgyTtoAVsTzpb4JlpHKdISCzca0EbVtq4QB311qnXMf/48hlzCPm/hfDEC+b1jIQuoTo1MQrrgsEpKa5ZXeCUkJKY3vRdJFy7cqr590+7IGb+JkvDO6IaN5wv0nfQ+TZOJhbPc/gPilENHD2v+8loHmt9QsJPSCMporLWUdfix1v6i8GRbVfFLGPE43KkDSiAEVm9otSIzUPZzvmvIs68U+BkBjnO4N08knhDNNlS0ayYPko/KwCRPKp+uFtASQfwFMNb0ytvWaBAAAAABJRU5ErkJggg==",
-      "background": "#FFFFFF"
+      "background": "#d0e1e2"
     },
     {
       "uuid": "27538719-2af7-325e-93b7-e6c34f713e11",

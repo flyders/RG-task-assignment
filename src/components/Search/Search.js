@@ -63,6 +63,7 @@ const FilterWrapper = styled.form`
 `;
 
 const Search = (props) => {
+  // console.log('props: ', props);
   return (
     <FilterWrapper>
       <input placeholder='Search for employees...' type='text' {...props} />

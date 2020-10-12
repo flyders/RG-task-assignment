@@ -34,7 +34,6 @@ const PageWrapper = styled.div`
     max-width: 1200px;
   }
 `;
-
 const Footer = styled.footer`
   grid-area: footer;
   display: flex;
@@ -49,7 +48,7 @@ const App = () => {
     <>
       <GlobalStyle />
       <PageWrapper>
-        <Nav></Nav>
+        <Nav />
         <EmployeeList />
         <Footer>All rights reserved ®</Footer>
       </PageWrapper>
